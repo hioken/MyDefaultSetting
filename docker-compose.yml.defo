@@ -1,0 +1,7 @@
+version: '3'
+servises: 
+	container_name:
+		propaty:
+
+volumes:
+  volume_name: {}

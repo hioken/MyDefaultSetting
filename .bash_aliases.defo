@@ -1,0 +1,29 @@
+# bash
+## shell
+alias reload='exec $SHELL -l'
+alias sorc='source ~/.bashrc'
+
+## directory
+alias cdh='cd ~'
+
+# application
+## git
+alias ga='git add'
+alias gc='git commit -m'
+alias gac='git add . && git commit -m'
+alias gpo='git push origin'
+alias gl='git log'
+alias grs='git reset --soft'
+alias grh='git reset --hard'
+alias gch='git checkout -b'
+alias gb='git branch'
+alias gbrm='git branch -D'
+
+## docker
+alias doc='docker'
+alias docn='docker network'
+alias docv='docker volume'
+alias docc='docker-compose'
+
+# myrule
+alias alias-update='rm ~/.bash_aliases && cp ./.bash_aliases.defo ~ && mv ~/.bash_aliases.defo ~/.bash_aliases'
